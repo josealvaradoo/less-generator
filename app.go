@@ -19,12 +19,12 @@ var answer string
 var wait string
 var easyLessConfig string
 
-// Configuracion rápida del plugin Easy LESS de Visual Studio Code
-easyLessConfig = "// main:styles.less, out: ../css/styles.min.css, compress: true, sourceMap: false"
-
 // func main()
 // Se ejecuta siempre al inicio del programa
 func main() {
+
+    // Configuracion rápida del plugin Easy LESS de Visual Studio Code
+    easyLessConfig = "// main:styles.less, out: ../css/styles.min.css, compress: true, sourceMap: false"
 
     fmt.Println("¿Desea usar el plugin Easy LESS de Studio Code para compilar less? (Y/N)")
     fmt.Scanln(&answer)
